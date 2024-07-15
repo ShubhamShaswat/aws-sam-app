@@ -71,7 +71,7 @@ class DynamoDbClient:
 
     def query_items(self, pk, sk):
         """
-        Queries for movies that were released in the specified year.
+        Queries for items that were released in the specified year.
 
         :param year: The year to query.
         :return: The list of movies that were released in the specified year.
